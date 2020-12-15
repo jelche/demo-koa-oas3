@@ -15,7 +15,7 @@ app.use(async(ctx, next) => {
     validatePaths: ['/pets'],
     validationOptions: {requestBodyAjvOptions: {allErrors: true}}
   });
-  return await mw(ctx, next);
+  return mw(ctx, next);
 });
 
 app.use(async (ctx, next) => {
