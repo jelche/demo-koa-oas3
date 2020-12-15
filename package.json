@@ -1,0 +1,32 @@
+{
+  "name": "demo-koa-oas3",
+  "version": "0.0.1",
+  "description": "Scratch project for testing koa-oas3 integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelche/demo-koa-oas3.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-oas3",
+    "OpenAPI"
+  ],
+  "author": "Justin Campbell <justin.campbell@altamiracorp.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jelche/demo-koa-oas3/issues"
+  },
+  "homepage": "https://github.com/jelche/demo-koa-oas3#readme",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-oas3": "^2.2.0"
+  }
+}
